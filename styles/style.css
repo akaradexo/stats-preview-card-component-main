@@ -32,13 +32,15 @@ p{
 }
 
 .container{
-    margin: auto;
     min-height: 100vh;
+}
+.card{
     max-width: 1000px;
+    margin:  auto;
+    padding-top:15rem ;
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 .content{
     background-color: var(--clr-Dark-desaturated-blue);
@@ -48,6 +50,8 @@ p{
     border-radius: 10px 0px 0px 10px;
 }
 img{
+    z-index: -1;
+    background-color: var(--clr-Dark-desaturated-blue);
     width: 50%;
     height: 25rem;
     border-radius: 0px 10px 10px 0px;
@@ -67,9 +71,10 @@ img{
     color: hsla(0, 0%, 100%, 0.6);
 }
 @media only screen and (max-width: 992px) {
-    .container{
+    .card{
        flex-direction: column-reverse;
        margin: 2rem;
+       padding: 0;
     }
     img{
         width: 20rem;
@@ -94,7 +99,7 @@ img{
   .attribution {
     font-size: 1rem;
     text-align: center;
-    margin: -2rem 0;
+    margin-top: -5rem;
   }
   .attribution a {
     color: hsl(228, 45%, 44%);
