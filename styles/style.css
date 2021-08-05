@@ -49,6 +49,8 @@ p{
 }
 img{
     width: 50%;
+    opacity:0.8;
+    backgorund-color:var(--clr-Dark-desaturated-blue);
     height: 25rem;
     border-radius: 0px 10px 10px 0px;
 }
