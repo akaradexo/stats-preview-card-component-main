@@ -49,12 +49,10 @@ p{
     height: 25rem;
     border-radius: 10px 0px 0px 10px;
 }
-img{
-    z-index: -1;
+.img{
+    background:linear-gradient(313deg, rgba(170,92,219,0.3469537473192402) 100%, rgba(170,92,219,0.3049369405965511) 100%),url("../images/image-header-desktop.jpg");
     background-color: var(--clr-Dark-desaturated-blue);
     width: 50%;
-    opacity:0.8;
-    backgorund-color:var(--clr-Dark-desaturated-blue);
     height: 25rem;
     border-radius: 0px 10px 10px 0px;
 }
@@ -78,9 +76,10 @@ img{
        margin: 2rem;
        padding: 0;
     }
-    img{
+    .img{
+        background:linear-gradient(313deg, rgba(170,92,219,0.3469537473192402) 100%, rgba(170,92,219,0.3049369405965511) 100%),url("../images/image-header-mobile.jpg");
         width: 20rem;
-        height: auto;
+        height: 20rem;
         border-radius:10px 10px 0px 0px;
     }
     .content{
