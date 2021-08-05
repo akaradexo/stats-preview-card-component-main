@@ -53,6 +53,8 @@ img{
     z-index: -1;
     background-color: var(--clr-Dark-desaturated-blue);
     width: 50%;
+    opacity:0.8;
+    backgorund-color:var(--clr-Dark-desaturated-blue);
     height: 25rem;
     border-radius: 0px 10px 10px 0px;
 }
